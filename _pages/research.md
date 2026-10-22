@@ -14,7 +14,7 @@ I develop deep-learning models that respect the structure of the data, and I eva
 ## Axis 1: Structure-aware, hierarchical learning on non-grid data
 
 ### Correspondence-free online human motion retargeting (3DV 2024)
-*R. Rekik, M. Marsot, A.-H. Olivier, J.-S. Franco, S. Wuhrer*
+*R. Rekik\*, M. Marsot\*, A.-H. Olivier, J.-S. Franco, S. Wuhrer (\*joint first authors)*
 
 <img src="/images/retargeting-teaser.jpg" alt="Motion retargeted from a source onto a CAD character, a clothed scan and a naked body" width="100%">
 
