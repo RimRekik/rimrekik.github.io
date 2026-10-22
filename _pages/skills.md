@@ -43,7 +43,7 @@ author_profile: true
 
 <div class="skill-card">
 <h3>Research methods</h3>
-<span class="chip main">Experimental Design</span><span class="chip main">User Studies</span><span class="chip">Psychophysics</span><span class="chip">Statistical Analysis</span><span class="chip">Benchmarking &amp; Ablation Studies</span><span class="chip">Cross-validation</span><span class="chip">Reproducible Research</span><span class="chip">Ethics Procedures</span>
+<span class="chip main">Experimental Design</span><span class="chip main">User Studies</span><span class="chip">Perceptual Experiments</span><span class="chip">Statistical Analysis</span><span class="chip">Benchmarking &amp; Ablation Studies</span><span class="chip">Cross-validation</span><span class="chip">Reproducible Research</span><span class="chip">Ethics Procedures</span>
 </div>
 
 <div class="skill-card">
