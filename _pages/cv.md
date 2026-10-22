@@ -14,7 +14,7 @@ redirect_from:
 Experience
 ======
 * **Postdoctoral researcher**, since Dec. 2025, Lyon, France
-  - Extends the hierarchical, structure-aware learning of my PhD from 3D bodies to molecules: graph attention networks (atoms → amino acids) predicting peptide MS/MS spectra, including 21 post-translational modifications.
+  - Hierarchical graph attention networks (atoms → amino acids) predicting peptide MS/MS spectra, including 21 post-translational modifications.
   - Computer vision for health: CNN-based bacterial genus/species identification from mass-spectrometry pseudo-images of clinical isolates.
   - Collaborators: Prof. Stéphane Derrode, Dr. Zied Bouyahia, Léo Schneider
 
