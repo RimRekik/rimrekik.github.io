@@ -30,7 +30,7 @@ Trained on AMASS motion capture.
 *R. Rekik, L. Schneider, S. Derrode, Z. Bouyahia*
 
 Predicting a peptide's MS/MS spectrum is central to peptide identification in proteomics. It is especially hard for **post-translational modifications (PTMs)**, which sequence-token models such as Prosit only see as new, rare tokens. PepH-GAT works on the molecule itself:
-- each peptide, including its PTMs, is built with **RDKit** and encoded as a **heterogeneous graph** with atoms and amino acids as nodes and atom–atom, atom–residue and residue–residue edges.;
+- each peptide, including its PTMs, is built with **RDKit** and encoded as a **heterogeneous graph** with atoms and amino acids as nodes and atom–atom, atom–residue and residue–residue edges;
 - **GATv2** message passing, one block per edge type, goes bottom-up from atoms to residues, and a **Set Transformer** readout predicts the 174 fragment-ion intensities;
 - the model is **pre-trained on ProteomeTools/Prosit** and **fine-tuned on 21 PTM types**, with ablations over graph structure (atoms only, residues only, full graph) and encoder design.
 
