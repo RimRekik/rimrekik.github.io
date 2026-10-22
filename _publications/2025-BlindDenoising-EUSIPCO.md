@@ -4,12 +4,13 @@ collection: publications
 date: 2025-09-08
 venue: 'European Signal Processing Conference (EUSIPCO)'
 paperurl: 'https://arxiv.org/abs/2503.16010'
-excerpt: "<img src='/images/eusipco-pipeline.svg' width='520'><br/>A network that learns pixel-wise Total Variation parameter maps for denoising when the noise type is unknown."
+excerpt: "<img src='/images/eusipco-fig2.jpg' width='420'><br/>A network that learns pixel-wise Total Variation parameter maps for denoising when the noise type is unknown."
 citation: 'C. Fantasia, L. Calatroni, X. Descombes, <b>R. Rekik</b>. &quot;Hybrid learning and variational modelling for blind image denoising.&quot; <i>European Signal Processing Conference (EUSIPCO)</i>, 2025.'
 ---
 
-<img src="/images/eusipco-pipeline.svg" alt="Method overview: noise classifier, patch-based parameter network predicting a pixel-wise TV map, weighted TV denoising" width="100%">
-*Method overview.*
+<img src="/images/eusipco-fig2.jpg" alt="Pipeline: noise classifier, Gaussian or Poisson parameter network, pixel-wise regularisation map" width="80%">
+
+*Fig. 2: a noise classifier first identifies the noise type in the input image; the corresponding network then estimates a pixel-wise regularisation map in a sliding-window fashion.*
 
 **[Preprint (arXiv)](https://arxiv.org/abs/2503.16010)** · **[Earlier version (HAL)](https://hal.science/hal-03596605)**
 

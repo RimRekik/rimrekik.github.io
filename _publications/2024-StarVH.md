@@ -4,11 +4,13 @@ collection: publications
 date: 2024-04-22
 venue: 'Computer Graphics Forum (Eurographics 2024 State-of-the-Art Report)'
 paperurl: 'https://doi.org/10.1111/cgf.15064'
-excerpt: "<img src='/images/survey-overview.svg' width='520'><br/>What makes an animated virtual human look realistic, and how should realism be measured? Eurographics 2024 State-of-the-Art Report."
+excerpt: "<img src='/images/survey-teaser.jpg' width='520'><br/>What makes an animated virtual human look realistic, and how should realism be measured? Eurographics 2024 State-of-the-Art Report."
 citation: '<b>R. Rekik</b>, S. Wuhrer, L. Hoyet, K. Zibrek, A.-H. Olivier. &quot;A survey on realistic virtual human animations: Definitions, features and evaluations.&quot; <i>Computer Graphics Forum</i> 43(2), 2024.'
 ---
 
-<img src="/images/survey-overview.svg" alt="Survey structure: definitions, features, evaluations" width="100%">
+<img src="/images/survey-teaser.jpg" alt="Survey teaser: evaluating the realism of virtual human animations with a self-report rating and in VR" width="100%">
+
+*Fig. 1: the survey explores what makes virtual human animation realistic. Two subjective evaluation approaches are shown: (left) a user rating realism on a scale, (right) a user reacting to the virtual human while immersed in VR.*
 
 **[Paper (Wiley / Eurographics)](https://doi.org/10.1111/cgf.15064)** · **[PDF (Eurographics Digital Library)](https://diglib.eg.org/bitstream/handle/10.1111/cgf15064/v43i2star_05_15064.pdf)** · **[HAL](https://hal.science/hal-04553021)**
 

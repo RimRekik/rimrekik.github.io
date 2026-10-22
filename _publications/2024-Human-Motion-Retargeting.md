@@ -4,7 +4,7 @@ collection: publications
 date: 2024-03-18
 venue: 'International Conference on 3D Vision (3DV)'
 paperurl: 'https://arxiv.org/abs/2302.00556'
-excerpt: "<img src='/images/retargeting-teaser.jpg' width='520'><br/>Animating any target body (scan, clothed capture, CAD character) with a source motion, without spatial or temporal correspondences, online."
+excerpt: "<img src='/images/retargeting-fig1.jpg' width='420'><br/>Animating any target body (scan, clothed capture, CAD character) with a source motion, without spatial or temporal correspondences, online."
 citation: '<b>R. Rekik*</b>, M. Marsot*, A.-H. Olivier, J.-S. Franco, S. Wuhrer. &quot;Correspondence-free online human motion retargeting.&quot; <i>International Conference on 3D Vision (3DV)</i>, 2024. (*joint first authors)'
 ---
 
@@ -23,6 +23,11 @@ We animate a target 3D character with the motion of a source subject, in a data-
 1. **3D skeleton extraction**: a PointNet regresses the articulated skeleton from the unordered points of each source frame and of the target shape.
 2. **Source motion retargeting**: a recurrent model constrained by the kinematic tree (forward kinematics, adversarial motion prior) transfers the skeletal motion to the target proportions.
 3. **Deformation model**: a learned skinning field maps the retargeted skeleton back to every point of the target, recovering its geometric details.
+
+## Problem setting
+<img src="/images/retargeting-fig1.jpg" alt="Untracked source motion from a 4D acquisition platform retargeted onto a target surface or scan" width="80%">
+
+*Fig. 1: given an untracked motion of a source subject (top) and a target body shape (bottom left), our method animates the target with the source motion while preserving temporal correspondences (bottom right).*
 
 ## BibTeX
 ```
