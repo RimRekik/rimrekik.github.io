@@ -8,7 +8,9 @@ excerpt: "<img src='/images/retargeting-teaser.jpg' width='520'><br/>Animating a
 citation: '<b>R. Rekik*</b>, M. Marsot*, A.-H. Olivier, J.-S. Franco, S. Wuhrer. &quot;Correspondence-free online human motion retargeting.&quot; <i>International Conference on 3D Vision (3DV)</i>, 2024. (*joint first authors)'
 ---
 
-<img src="/images/retargeting-teaser.jpg" alt="A source motion retargeted onto a CAD character, a clothed body and a naked body" width="100%">
+<video width="100%" controls muted loop playsinline autoplay poster="/images/retargeting-teaser.jpg">
+  <source src="/files/retargeting-teaser.mp4" type="video/mp4">
+</video>
 
 **[Paper (arXiv)](https://arxiv.org/abs/2302.00556)** · **[HAL](https://hal.science/hal-03970689v2)** · **[Code](https://gitlab.inria.fr/rrekikdi/human-motion-retargeting2023)** · **[Video](https://gitlab.inria.fr/rrekikdi/human-motion-retargeting2023/-/blob/main/doc/Correspondance-free_online_human_retargeting.mp4)**
 
