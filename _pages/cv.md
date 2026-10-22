@@ -14,9 +14,8 @@ redirect_from:
 Experience
 ======
 * **Postdoctoral researcher**, since Dec. 2025, Lyon, France
-  - Hierarchical graph attention networks (atoms → amino acids) predicting peptide MS/MS spectra, including 21 post-translational modifications.
-  - Computer vision for health: CNN-based bacterial genus/species identification from mass-spectrometry pseudo-images of clinical isolates.
-  - Collaborators: Prof. Stéphane Derrode, Dr. Zied Bouyahia, Léo Schneider
+  - Deep learning for mass-spectrometry proteomics: hierarchical graph neural networks on molecular representations of peptides.
+  - Computer vision for health: bacterial identification from mass-spectrometry data.
 
 * **R&D engineer (AI) and lecturer**, Caplogy Data, Sep. 2025 – Nov. 2025, Lyon, France
   - Applied computer-vision projects; designed and taught courses in several engineering schools.

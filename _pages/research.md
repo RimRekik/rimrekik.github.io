@@ -26,15 +26,8 @@ The task is to transfer the motion of a source human onto a target body of any s
 Trained on AMASS motion capture.
 [Paper](https://arxiv.org/abs/2302.00556) · [HAL](https://hal.science/hal-03970689v2) · [Code](https://gitlab.inria.fr/rrekikdi/human-motion-retargeting2023)
 
-### PepH-GAT: hierarchical graph attention for peptide fragmentation spectra (in preparation)
-*R. Rekik, L. Schneider, S. Derrode, Z. Bouyahia*
-
-Predicting a peptide's MS/MS spectrum is central to peptide identification in proteomics. It is especially hard for **post-translational modifications (PTMs)**, which sequence-token models such as Prosit only see as new, rare tokens. PepH-GAT works on the molecule itself:
-- each peptide, including its PTMs, is built with **RDKit** and encoded as a **heterogeneous graph** with atoms and amino acids as nodes and atom–atom, atom–residue and residue–residue edges;
-- **GATv2** message passing, one block per edge type, goes bottom-up from atoms to residues, and a **Set Transformer** readout predicts the 174 fragment-ion intensities;
-- the model is **pre-trained on ProteomeTools/Prosit** and **fine-tuned on 21 PTM types**, with ablations over graph structure (atoms only, residues only, full graph) and encoder design.
-
-*Engineering:* PyTorch Geometric pipeline streaming millions of graphs, multi-process graph construction, A100 cluster training (SLURM), Weights & Biases tracking.
+### Graph neural networks for peptide mass spectrometry (ongoing)
+Predicting how peptides behave in a mass spectrometer is central to protein identification in proteomics, and it is especially hard for chemically modified peptides. I develop **hierarchical graph neural networks** that represent peptides at the molecular level, so that the model can handle chemical modifications it has rarely seen. A paper is in preparation.
 
 ---
 
@@ -53,18 +46,14 @@ What does "realistic" mean for a virtual human, which features drive it, and how
 [Paper](https://hal.science/hal-04553021/document)
 
 ### Evaluation in proteomics
-Models are scored by the **spectral-angle distance** to measured spectra, with impossible fragments masked. PTM data are split **by peptide backbone**, so no sequence leaks between train and test, and every PTM type must appear in each split. Every discarded spectrum is logged with a reason.
+In my postdoc, models are evaluated against experimental measurements, with data splits designed to prevent information leakage between training and test sets.
 
 ---
 
 ## Axis 3: Computer vision for health and science
 
-### Bacterial identification from mass-spectrometry pseudo-images
-LC-MS acquisitions of clinical bacterial isolates are rendered as 2D **pseudo-images** (retention time × m/z) and classified with vision models:
-- transfer learning with **ResNet-18/34/50 and EfficientNet-B0** adapted to single-channel intensity maps;
-- class imbalance handled by weighted losses and oversampling, and domain-specific augmentations (retention-time shifts, multiplicative intensity noise) selected by grid search;
-- a **genus → species cascade** over 11 species, evaluated by stratified k-fold cross-validation;
-- traceable curation from raw acquisitions to labels, with every ambiguous sample reported for expert review.
+### Pathogen identification from mass-spectrometry data (ongoing)
+Mass-spectrometry acquisitions of clinical samples can be represented as images. I apply **computer-vision models** to them to identify bacteria, an application of vision methods to clinical microbiology.
 
 ### 4DHumanOutfit (CVIU 2023)
 A multi-subject 4D capture dataset of people in varying outfits with large displacements, captured on the Kinovis platform. It provides the reference reconstructions used in 4DHumanPercept.

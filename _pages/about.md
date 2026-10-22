@@ -13,13 +13,13 @@ I am a **postdoctoral researcher in machine learning** in Lyon, France. I design
 ### Research
 
 **Structure-aware, hierarchical learning.**
-I develop models that reason from fine elements up to meaningful units. During my PhD at [Inria](https://www.inria.fr/en), I designed a correspondence-free method that retargets motion between 3D humans of any shape. It regresses an articulated skeleton from raw points, moves it under kinematic constraints and transfers the motion back through a learned skinning field ([3DV 2024](https://arxiv.org/abs/2302.00556)). I now develop **PepH-GAT**, a hierarchical graph attention network that goes from atoms to amino acids to predict peptide MS/MS fragmentation spectra, including for post-translationally modified peptides.
+I develop models that reason from fine elements up to meaningful units. During my PhD at [Inria](https://www.inria.fr/en), I designed a correspondence-free method that retargets motion between 3D humans of any shape. It regresses an articulated skeleton from raw points, moves it under kinematic constraints and transfers the motion back through a learned skinning field ([3DV 2024](https://arxiv.org/abs/2302.00556)). I now develop hierarchical graph neural networks that model peptides at the molecular level for mass-spectrometry proteomics.
 
 **Evaluation grounded in perception and measurement.**
-I built **4DHumanPercept**, a dataset of 240 animated 4D humans rated in a user study, and learned metrics that predict perceived animation quality ([IEEE TVCG 2025](https://arxiv.org/abs/2505.23301)). I also co-authored a survey on realistic virtual human animation ([Eurographics STAR 2024](https://hal.science/hal-04553021/document)). In proteomics, I evaluate models against measured spectra, with leakage-free splits and cross-validation across clinical isolates.
+I built **4DHumanPercept**, a dataset of 240 animated 4D humans rated in a user study, and learned metrics that predict perceived animation quality ([IEEE TVCG 2025](https://arxiv.org/abs/2505.23301)). I also co-authored a survey on realistic virtual human animation ([Eurographics STAR 2024](https://hal.science/hal-04553021/document)). In proteomics, I evaluate models against experimental measurements.
 
 **Computer vision for health.**
-I train CNNs on mass-spectrometry pseudo-images to identify bacterial genus and species from clinical samples.
+I apply computer-vision models to mass-spectrometry data for bacterial identification in clinical microbiology.
 
 ### Background
 - **Postdoc** (since 2025): deep learning for mass-spectrometry proteomics and clinical microbiology, Lyon.
