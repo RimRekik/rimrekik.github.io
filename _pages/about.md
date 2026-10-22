@@ -36,7 +36,7 @@ I build deep-learning solutions **end to end, from data analysis and model desig
 More details on the [Research](/research/) page.
 
 ### Background
-- **Postdoc** (since 2025), [Imagine team](https://liris.cnrs.fr/equipe/imagine), LIRIS, École Centrale de Lyon.
+- **Postdoc** (since 2025), [Imagine team](https://liris.cnrs.fr/equipe/imagine), LIRIS, École Centrale de Lyon, working with Stéphane Derrode and Zied Bouyahia.
 - **PhD in Computer Science** (2021–2025), Université Grenoble Alpes / Inria, [Morpheo](https://www.inria.fr/en/morpheo) (now Kinetix) and [VirtUs](https://team.inria.fr/virtus/) teams, supervised by [Stefanie Wuhrer](https://swuhrer.gitlabpages.inria.fr/website/) and [Anne-Hélène Olivier](https://perso.univ-rennes2.fr/anne.helene.olivier).
 - **Engineering degree** (Telecommunications, data science) and **research master's** (vision and intelligent machines), [ENIT](http://www.enit.rnu.tn/), Tunis.
 
