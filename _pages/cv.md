@@ -45,9 +45,11 @@ Education
 
 Skills
 ======
+Detailed list on the [Technical skills](/skills/) page.
+
 * **Languages:** Python (expert), C++, C, Java, SQL, MATLAB
 * **Deep learning:** PyTorch, PyTorch Geometric, TensorFlow/Keras; CNNs, graph neural networks (GAT/GATv2), Transformers, autoencoders, generative models; transfer learning, hyperparameter search, cross-validation
-* **3D and vision:** OpenCV, Trimesh, Polyscope, Blender, mesh processing, motion capture data
+* **3D and vision:** OpenCV, Trimesh, Polyscope, SMPL body models, Blender, mesh processing, motion capture data
 * **Scientific data:** NumPy, pandas, scikit-learn, RDKit, HDF5, statistical analysis, PsychoPy (user studies)
 * **Engineering:** Git, Linux, SLURM GPU clusters (A100), Weights & Biases, reproducible pipelines
 

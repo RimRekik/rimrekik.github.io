@@ -20,6 +20,7 @@ I build deep-learning solutions **end to end, from data analysis and model desig
 - **Open science**: released code ([motion retargeting](https://gitlab.inria.fr/rrekikdi/human-motion-retargeting2023), [4DHumanQA](https://gitlab.inria.fr/rrekikdi/4dhumanqa)) and datasets ([4DHumanPercept](https://gitlab.inria.fr/rrekikdi/4dhumanqa), [4DHumanOutfit](https://kinovis.inria.fr/4dhumanoutfit/)).
 - **Adaptability**: from 3D virtual humans in my PhD to proteomics and clinical microbiology in my postdoc, with a new graph neural network model for peptide spectra already [in preparation](/publications/2026-PepH-GAT/).
 - **Rigorous evaluation**: quantitative metrics and leakage-free protocols, qualitative analysis, and perceptual user studies (study design, ethics, statistical analysis).
+- **Strong engineering**: PyTorch and PyTorch Geometric, large-scale data pipelines, GPU clusters (SLURM), reproducible experiments. See [Technical skills](/skills/).
 - **Teaching and supervision**: about 145 hours of teaching from first-year undergraduate to engineering-school level, with full course materials (lectures, tutorials, labs, notebooks); co-supervision of a master's student.
 - **Scientific community**: co-organised and presented at the 3DMOVE and Human4D seminars (Inria), took part in the HackAtech 2023 innovation challenge, and gave outreach talks encouraging high-school girls to study computer science and mathematics.
 

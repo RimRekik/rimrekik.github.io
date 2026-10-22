@@ -7,12 +7,9 @@ author_profile: true
 
 {% include base_path %}
 
-I develop **deep-learning methods to model and analyse complex data** (molecular graphs and mass-spectrometry signals, 3D shapes and human motion, images) across biomedical, computer vision and computer graphics applications.
+During my PhD and postdoc, I have taken deep-learning projects **from raw data to validated results** in very different domains. This work led to publications in Q1 journals and leading conferences, with openly released code and datasets.
 
-**How I evaluate.** Every project is evaluated with protocols that fit the application:
-- **quantitative**: task-specific metrics, ablation studies, cross-validation and data splits that prevent information leakage;
-- **qualitative**: visual inspection and error analysis;
-- **perceptual**: user studies that measure how people perceive the results (ethics procedures, statistical analysis of subjective scores).
+I develop **deep-learning methods to model and analyse complex data** (molecular graphs and mass-spectrometry signals, 3D shapes and human motion, images) across biomedical, computer vision and computer graphics applications. For each problem, I analyse the data, design the model and build the evaluation protocol that fits the application. Depending on the problem, this means quantitative metrics with ablation studies and leakage-free data splits, qualitative analysis of the results, and user studies when human perception matters.
 
 ---
 
