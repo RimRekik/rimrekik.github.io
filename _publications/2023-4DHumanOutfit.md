@@ -8,8 +8,10 @@ excerpt: "<img src='/images/4dhumanoutfit-subjects.jpg' width='520'><br/>A dense
 citation: 'M. Armando, L. Boissieux, E. Boyer, J.-S. Franco, M. Humenberger, C. Legras, V. Leroy, M. Marsot, J. Pansiot, S. Pujades, <b>R. Rekik</b>, G. Rogez, A. Swamy, S. Wuhrer. &quot;4DHumanOutfit: a multi-subject 4D dataset of human motion sequences in varying outfits exhibiting large displacements.&quot; <i>Computer Vision and Image Understanding</i> 237, 103836, 2023.'
 ---
 
-<img src="/images/4dhumanoutfit-subjects.jpg" alt="4D reconstructions of several subjects from 4DHumanOutfit" width="100%">
-*4D reconstructions of different subjects and outfits (renderings from the 4DHumanPercept study).*
+<video width="100%" controls muted loop playsinline autoplay>
+  <source src="https://kinovis.inria.fr/files/2023/09/4DHO960x540.mp4" type="video/mp4">
+</video>
+*4DHumanOutfit dataset teaser (Kinovis platform, Inria).*
 
 **[Paper (Elsevier)](https://doi.org/10.1016/j.cviu.2023.103836)** · **[arXiv](https://arxiv.org/abs/2306.07399)** · **[HAL](https://hal.univ-grenoble-alpes.fr/hal-04129186)** · **[Dataset page](https://kinovis.inria.fr/4dhumanoutfit/)**
 
