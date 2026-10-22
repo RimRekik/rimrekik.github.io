@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 320" font-family="Helvetica, Arial, sans-serif">
+  <rect width="900" height="320" fill="#ffffff"/>
+  <defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#555"/></marker></defs>
+
+  <text x="450" y="34" font-size="17" font-weight="bold" text-anchor="middle" fill="#1d1d1d">Realistic virtual human animation</text>
+  <text x="450" y="56" font-size="12.5" text-anchor="middle" fill="#666">structure of the survey</text>
+
+  <!-- three columns -->
+  <g font-size="12.5" fill="#333" text-anchor="middle">
+    <rect x="30" y="80" width="250" height="190" rx="10" fill="#e6eef5" stroke="#2a4d69"/>
+    <text x="155" y="108" font-size="15" font-weight="bold" fill="#2a4d69">1. Definitions</text>
+    <text x="155" y="140">What does "realism" mean</text>
+    <text x="155" y="158">for an animated virtual human?</text>
+    <text x="155" y="190">Clarifying the different notions</text>
+    <text x="155" y="208">used across the literature</text>
+
+    <rect x="325" y="80" width="250" height="190" rx="10" fill="#f4f1e8" stroke="#b9a978"/>
+    <text x="450" y="108" font-size="15" font-weight="bold" fill="#6d5f2e">2. Features</text>
+    <text x="450" y="140">Which factors are manipulated</text>
+    <text x="450" y="158">to increase perceived realism?</text>
+    <text x="450" y="190">Appearance · motion</text>
+    <text x="450" y="208">and their interplay</text>
+
+    <rect x="620" y="80" width="250" height="190" rx="10" fill="#fbeee6" stroke="#8a3b12"/>
+    <text x="745" y="108" font-size="15" font-weight="bold" fill="#8a3b12">3. Evaluations</text>
+    <text x="745" y="140">How is realism measured?</text>
+    <text x="745" y="172">Subjective: user studies,</text>
+    <text x="745" y="190">perceptual experiments</text>
+    <text x="745" y="222">Objective: quantitative metrics</text>
+  </g>
+  <g stroke="#555" stroke-width="1.6" marker-end="url(#ar)">
+    <line x1="282" y1="175" x2="321" y2="175"/>
+    <line x1="577" y1="175" x2="616" y2="175"/>
+  </g>
+
+  <text x="450" y="300" font-size="12.5" text-anchor="middle" fill="#555">→ Open problems: evaluation measures that agree with human perception</text>
+</svg>
