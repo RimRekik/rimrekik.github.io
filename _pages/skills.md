@@ -22,38 +22,38 @@ author_profile: true
 <div class="skills-grid">
 
 <div class="skill-card">
-<h3>Programming</h3>
-<span class="chip main">Python</span><span class="chip">C++</span><span class="chip">C</span><span class="chip">Java</span><span class="chip">SQL</span><span class="chip">MATLAB</span><span class="chip">Bash</span>
+<h3>Research expertise</h3>
+<span class="chip main">Deep Learning</span><span class="chip main">Geometric Deep Learning</span><span class="chip main">Graph Neural Networks</span><span class="chip main">3D Computer Vision</span><span class="chip">Human Motion Modeling</span><span class="chip">Computer Animation</span><span class="chip">Perceptual Evaluation</span><span class="chip">Machine Learning for Health</span><span class="chip">Computational Proteomics</span>
 </div>
 
 <div class="skill-card">
-<h3>Deep learning</h3>
-<span class="chip main">PyTorch</span><span class="chip main">PyTorch Geometric</span><span class="chip">torchvision</span><span class="chip">TensorFlow / Keras</span><span class="chip">scikit-learn</span>
+<h3>Machine learning</h3>
+<span class="chip main">Representation Learning</span><span class="chip main">Transfer Learning &amp; Fine-tuning</span><span class="chip">Supervised Learning</span><span class="chip">Point Cloud Learning (PointNet)</span><span class="chip">Convolutional Neural Networks</span><span class="chip">Sequence Models (RNNs, Transformers)</span><span class="chip">Generative Models (GANs, Autoencoders)</span><span class="chip">Hyperparameter Optimization</span>
 </div>
 
 <div class="skill-card">
-<h3>Models</h3>
-<span class="chip main">Graph neural networks (GAT)</span><span class="chip">CNNs (ResNet, EfficientNet)</span><span class="chip">PointNet</span><span class="chip">RNNs</span><span class="chip">Transformers</span><span class="chip">Adversarial training</span><span class="chip">Autoencoders</span>
+<h3>Computer vision &amp; graphics</h3>
+<span class="chip main">3D Shape Analysis</span><span class="chip main">Motion Retargeting</span><span class="chip">4D Human Capture</span><span class="chip">Character Animation</span><span class="chip">Parametric Body Models (SMPL)</span><span class="chip">Image Classification</span><span class="chip">Image Denoising</span><span class="chip">Inverse Problems</span>
 </div>
 
 <div class="skill-card">
-<h3>3D vision &amp; graphics</h3>
-<span class="chip main">Meshes &amp; point clouds</span><span class="chip">SMPL body models</span><span class="chip">Motion capture (AMASS)</span><span class="chip">Skinning &amp; kinematics</span><span class="chip">Trimesh</span><span class="chip">Polyscope</span><span class="chip">Blender</span><span class="chip">OpenCV</span>
+<h3>Bioinformatics &amp; cheminformatics</h3>
+<span class="chip main">Mass Spectrometry (MS/MS)</span><span class="chip main">Molecular Graphs</span><span class="chip">Proteomics</span><span class="chip">Post-translational Modifications</span><span class="chip">Clinical Microbiology</span><span class="chip">RDKit</span>
 </div>
 
 <div class="skill-card">
-<h3>Data analysis &amp; evaluation</h3>
-<span class="chip main">Evaluation protocols</span><span class="chip">Cross-validation</span><span class="chip">Ablation studies</span><span class="chip">User studies</span><span class="chip">Statistical analysis</span><span class="chip">NumPy</span><span class="chip">pandas</span><span class="chip">Matplotlib</span><span class="chip">Seaborn</span><span class="chip">PsychoPy</span>
+<h3>Research methods</h3>
+<span class="chip main">Experimental Design</span><span class="chip main">User Studies</span><span class="chip">Psychophysics</span><span class="chip">Statistical Analysis</span><span class="chip">Benchmarking &amp; Ablation Studies</span><span class="chip">Cross-validation</span><span class="chip">Reproducible Research</span><span class="chip">Ethics Procedures</span>
 </div>
 
 <div class="skill-card">
-<h3>Scientific &amp; biomedical data</h3>
-<span class="chip main">RDKit</span><span class="chip">Molecular graphs</span><span class="chip">Mass spectrometry</span><span class="chip">Proteomics</span><span class="chip">HDF5</span>
+<h3>Programming &amp; libraries</h3>
+<span class="chip main">Python</span><span class="chip main">PyTorch</span><span class="chip main">PyTorch Geometric</span><span class="chip">TensorFlow / Keras</span><span class="chip">scikit-learn</span><span class="chip">NumPy</span><span class="chip">pandas</span><span class="chip">OpenCV</span><span class="chip">Trimesh</span><span class="chip">Blender</span><span class="chip">PsychoPy</span><span class="chip">MATLAB</span><span class="chip">C / C++</span><span class="chip">Java</span><span class="chip">SQL</span>
 </div>
 
 <div class="skill-card">
-<h3>Computing &amp; MLOps</h3>
-<span class="chip main">GPU clusters (SLURM, A100)</span><span class="chip">Parallel hyperparameter search</span><span class="chip">Weights &amp; Biases</span><span class="chip">Large-scale data pipelines</span><span class="chip">Git</span><span class="chip">Linux</span>
+<h3>HPC &amp; MLOps</h3>
+<span class="chip main">HPC (SLURM)</span><span class="chip main">GPU Training (NVIDIA A100)</span><span class="chip">Distributed Hyperparameter Search</span><span class="chip">Experiment Tracking (Weights &amp; Biases)</span><span class="chip">Data Pipelines</span><span class="chip">Git</span><span class="chip">Linux</span>
 </div>
 
 <div class="skill-card">
@@ -74,4 +74,4 @@ author_profile: true
 <tr><td>Open, reproducible research</td><td>Released and documented code and datasets. <a href="https://gitlab.inria.fr/rrekikdi/human-motion-retargeting2023">Retargeting code</a> · <a href="https://gitlab.inria.fr/rrekikdi/4dhumanqa">4DHumanQA &amp; dataset</a></td></tr>
 </table>
 
-<p class="skills-note">Dark tags mark the tools I use most.</p>
+<p class="skills-note">Dark tags mark my main areas of expertise and tools.</p>
