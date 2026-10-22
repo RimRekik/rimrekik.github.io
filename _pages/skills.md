@@ -7,8 +7,6 @@ author_profile: true
 
 {% include base_path %}
 
-These are the skills I use in my research code: in the public repositories of my PhD ([motion retargeting](https://gitlab.inria.fr/rrekikdi/human-motion-retargeting2023), [4DHumanQA](https://gitlab.inria.fr/rrekikdi/4dhumanqa)) and in my postdoc projects.
-
 ## Deep learning
 - **Frameworks:** PyTorch (main framework), PyTorch Geometric, torchvision; TensorFlow/Keras.
 - **Architectures I have implemented and trained:**
