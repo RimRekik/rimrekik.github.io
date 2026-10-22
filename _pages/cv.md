@@ -13,14 +13,14 @@ redirect_from:
 
 Experience
 ======
-* **Postdoctoral researcher**, since Dec. 2025, Lyon, France
+* **Postdoctoral researcher**, [Imagine team](https://liris.cnrs.fr/equipe/imagine), LIRIS, École Centrale de Lyon, since Dec. 2025, Lyon, France
   - Deep learning for mass-spectrometry proteomics: hierarchical graph neural networks on molecular representations of peptides.
   - Computer vision for health: bacterial identification from mass-spectrometry data.
 
 * **R&D engineer (AI) and lecturer**, Caplogy Data, Sep. 2025 – Nov. 2025, Lyon, France
   - Applied computer-vision projects; designed and taught courses in several engineering schools.
 
-* **PhD researcher**, Inria Grenoble Rhône-Alpes, [Morpheo](https://www.inria.fr/en/morpheo) & [VirtUs](https://www.inria.fr/en/virtus) teams, Nov. 2021 – Jun. 2025
+* **PhD researcher**, Inria Grenoble Rhône-Alpes, [Morpheo](https://www.inria.fr/en/morpheo) (now Kinetix) & [VirtUs](https://team.inria.fr/virtus/) teams, Nov. 2021 – Jun. 2025
   - Deep learning for 3D human motion: correspondence-free retargeting (PointNet skeleton regression, kinematic-tree RNN, learned skinning).
   - Created the 4DHumanPercept dataset (240 animated 4D humans, 6 distortion types) and the 4DHumanQA learned perceptual metric.
   - Designed and ran user studies (including ethics documentation); statistical analysis of subjective data.

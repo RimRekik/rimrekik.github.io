@@ -17,7 +17,7 @@ I develop **deep-learning methods to model and analyse complex data** (molecular
 ---
 
 ## 1. Biomedical data: proteomics and clinical microbiology
-*Postdoc, since 2025*
+*Postdoc, [Imagine team](https://liris.cnrs.fr/equipe/imagine), LIRIS, École Centrale de Lyon, since 2025*
 
 ### Graph neural networks for peptide mass spectrometry (ongoing)
 Predicting how peptides behave in a mass spectrometer is central to protein identification in proteomics, and it is especially hard for chemically modified peptides. I develop **hierarchical graph neural networks** that represent peptides at the molecular level, from atoms to amino acids, so that the model can handle modifications it has rarely seen. Models are evaluated against experimental spectra. A paper is in preparation.
@@ -30,7 +30,7 @@ Mass-spectrometry acquisitions of clinical samples can be represented as images.
 ---
 
 ## 2. 3D humans: 4D vision, animation and perception
-*PhD, Inria Morpheo & VirtUs, 2021–2025*
+*PhD, Inria [Morpheo](https://www.inria.fr/en/morpheo) (now Kinetix) and [VirtUs](https://team.inria.fr/virtus/) teams, 2021–2025*
 
 ### Correspondence-free online human motion retargeting (3DV 2024)
 *R. Rekik\*, M. Marsot\*, A.-H. Olivier, J.-S. Franco, S. Wuhrer (\*joint first authors)*
