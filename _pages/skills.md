@@ -35,6 +35,12 @@ These are the skills I use in my research code: in the public repositories of my
 
 ## Software engineering and computing
 - **Languages:** Python (expert), C++, C, Java, SQL, MATLAB.
-- **High-performance computing:** GPU training on SLURM clusters (NVIDIA A100), batch job arrays for grid searches.
+- **Large-scale GPU computing:** training on remote high-performance computing clusters (SLURM, NVIDIA A100):
+  - job orchestration and parallel hyperparameter searches run as batches of jobs;
+  - multi-day training runs with checkpointing;
+  - environment and dependency management on remote Linux servers;
+  - offline experiment tracking and syncing (Weights & Biases).
+
+  These skills transfer directly to cloud environments.
 - **Reproducibility:** command-line configuration, fixed seeds, saved run options, experiment tracking with Weights & Biases, documented open-source releases (README, licences, BibTeX).
 - **Tools:** Git (GitHub, GitLab), Linux, Bash.
