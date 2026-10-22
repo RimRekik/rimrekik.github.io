@@ -7,9 +7,7 @@ author_profile: true
 
 {% include base_path %}
 
-My research follows one line: **deep learning that respects the structure of the data, evaluated against the ground truth that matters for the application.** I developed it on 3D virtual humans during my PhD (computer vision and graphics), and I now apply it to peptides and pathogens (bioinformatics and AI for health).
-
-<p align="center"><img src="/images/research-thread.svg" alt="Research thread diagram" width="100%"></p>
+I develop deep-learning models that respect the structure of the data, and I evaluate them against perceptual or experimental ground truth. My work spans 3D virtual humans (computer vision and graphics) and peptides and pathogens (bioinformatics and AI for health).
 
 ---
 
@@ -31,8 +29,8 @@ Trained on AMASS motion capture.
 ### PepH-GAT: hierarchical graph attention for peptide fragmentation spectra (in preparation)
 *R. Rekik, L. Schneider, S. Derrode, Z. Bouyahia*
 
-The same principle moves from bodies to molecules. Predicting a peptide's MS/MS spectrum is central to peptide identification in proteomics. It is especially hard for **post-translational modifications (PTMs)**, which sequence-token models such as Prosit only see as new, rare tokens. PepH-GAT works on the molecule itself:
-- each peptide, including its PTMs, is built with **RDKit** and encoded as a **heterogeneous graph** with atoms and amino acids as nodes and atom–atom, atom–residue and residue–residue edges. The two levels play the same role as points and joints in the retargeting work;
+Predicting a peptide's MS/MS spectrum is central to peptide identification in proteomics. It is especially hard for **post-translational modifications (PTMs)**, which sequence-token models such as Prosit only see as new, rare tokens. PepH-GAT works on the molecule itself:
+- each peptide, including its PTMs, is built with **RDKit** and encoded as a **heterogeneous graph** with atoms and amino acids as nodes and atom–atom, atom–residue and residue–residue edges.;
 - **GATv2** message passing, one block per edge type, goes bottom-up from atoms to residues, and a **Set Transformer** readout predicts the 174 fragment-ion intensities;
 - the model is **pre-trained on ProteomeTools/Prosit** and **fine-tuned on 21 PTM types**, with ablations over graph structure (atoms only, residues only, full graph) and encoder design.
 
@@ -54,15 +52,15 @@ Standard geometric errors say little about whether an animation *looks* wrong. I
 What does "realistic" mean for a virtual human, which features drive it, and how should it be measured, subjectively and objectively? A 90-minute State-of-the-Art Report at Eurographics 2024.
 [Paper](https://hal.science/hal-04553021/document)
 
-### The same rigour in biochemistry
-In my postdoc, the reference is the mass spectrometer instead of the observer. Models are scored by the **spectral-angle distance** to measured spectra, with impossible fragments masked. PTM data are split **by peptide backbone**, so no sequence leaks between train and test, and every PTM type must appear in each split. Every discarded spectrum is logged with a reason.
+### Evaluation in proteomics
+Models are scored by the **spectral-angle distance** to measured spectra, with impossible fragments masked. PTM data are split **by peptide backbone**, so no sequence leaks between train and test, and every PTM type must appear in each split. Every discarded spectrum is logged with a reason.
 
 ---
 
 ## Axis 3: Computer vision for health and science
 
 ### Bacterial identification from mass-spectrometry pseudo-images
-LC-MS acquisitions of clinical bacterial isolates are rendered as 2D **pseudo-images** (retention time × m/z), which turns a diagnostic question into a vision problem:
+LC-MS acquisitions of clinical bacterial isolates are rendered as 2D **pseudo-images** (retention time × m/z) and classified with vision models:
 - transfer learning with **ResNet-18/34/50 and EfficientNet-B0** adapted to single-channel intensity maps;
 - class imbalance handled by weighted losses and oversampling, and domain-specific augmentations (retention-time shifts, multiplicative intensity noise) selected by grid search;
 - a **genus → species cascade** over 11 species, evaluated by stratified k-fold cross-validation;

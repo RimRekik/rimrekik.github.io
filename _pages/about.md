@@ -8,25 +8,18 @@ redirect_from:
   - /about.html
 ---
 
-I am a **postdoctoral researcher in machine learning** in Lyon, France. I design **structure-aware deep-learning models for non-grid data**, such as 3D bodies in motion, molecular graphs and mass-spectrometry signals, and I **evaluate them against what really matters for the application**: human perception in computer graphics, physical measurements in biochemistry.
+I am a **postdoctoral researcher in machine learning** in Lyon, France. I design **structure-aware deep-learning models for non-grid data** (3D bodies in motion, molecular graphs, mass-spectrometry signals) and I evaluate them against what matters for the application: human perception in computer graphics, physical measurements in biochemistry.
 
-My PhD at [Inria](https://www.inria.fr/en) developed this approach on **3D humans**. My postdoc applies it to **molecules and health**.
+### Research
 
-<p align="center"><img src="/images/research-thread.svg" alt="Research thread: the same structure-aware, hierarchical learning approach applied to 3D humans (PhD) and to peptides (postdoc)" width="100%"></p>
+**Structure-aware, hierarchical learning.**
+I develop models that reason from fine elements up to meaningful units. During my PhD at [Inria](https://www.inria.fr/en), I designed a correspondence-free method that retargets motion between 3D humans of any shape. It regresses an articulated skeleton from raw points, moves it under kinematic constraints and transfers the motion back through a learned skinning field ([3DV 2024](https://arxiv.org/abs/2302.00556)). I now develop **PepH-GAT**, a hierarchical graph attention network that goes from atoms to amino acids to predict peptide MS/MS fragmentation spectra, including for post-translationally modified peptides.
 
-### One research thread, two application domains
+**Evaluation grounded in perception and measurement.**
+I built **4DHumanPercept**, a dataset of 240 animated 4D humans rated in a user study, and learned metrics that predict perceived animation quality ([IEEE TVCG 2025](https://arxiv.org/abs/2505.23301)). I also co-authored a survey on realistic virtual human animation ([Eurographics STAR 2024](https://hal.science/hal-04553021/document)). In proteomics, I evaluate models against measured spectra, with leakage-free splits and cross-validation across clinical isolates.
 
-**1. Learning through structure, from fine elements to meaningful units.**
-In my PhD, I retargeted motion between 3D humans without any mesh correspondence. A PointNet regresses an articulated skeleton from raw points. A recurrent network moves that skeleton, constrained by the kinematic tree. A learned skinning field maps the motion back to every point ([3DV 2024](https://arxiv.org/abs/2302.00556)).
-In my postdoc, PepH-GAT applies the same idea to peptides. Atoms are aggregated into amino acids, which are then aggregated along the peptide chain, by a hierarchical graph attention network that predicts MS/MS fragmentation spectra, including for post-translationally modified peptides.
-In both cases, the model is told what the structure is (joints and bones; atoms, residues and bonds) instead of rediscovering it from a flat sequence. This lets it generalize to **unseen body shapes** and to **unseen chemical modifications**.
-
-**2. Evaluating against the ground truth that matters.**
-For virtual humans, the reference is human perception. I built the **4DHumanPercept** dataset (240 distorted animations with mean opinion scores from a user study) and learned metrics that predict perceived quality ([IEEE TVCG 2025](https://arxiv.org/abs/2505.23301)), after a survey of how realism is defined and measured ([Eurographics STAR 2024](https://hal.science/hal-04553021/document)).
-For peptides and pathogens, the reference is the instrument: spectral-angle distance to measured spectra, splits that keep peptide backbones out of the test set, and stratified cross-validation across clinical isolates.
-
-**3. Computer vision beyond natural images.**
-Mass-spectrometry acquisitions can be read as images. I train CNNs (ResNet, EfficientNet) on MS1 **pseudo-images** to identify bacterial genus and species from clinical samples, with a genus-to-species cascade. Vision methods, applied to a diagnostic problem.
+**Computer vision for health.**
+I train CNNs on mass-spectrometry pseudo-images to identify bacterial genus and species from clinical samples.
 
 ### Background
 - **Postdoc** (since 2025): deep learning for mass-spectrometry proteomics and clinical microbiology, Lyon.
@@ -34,6 +27,4 @@ Mass-spectrometry acquisitions can be read as images. I train CNNs (ResNet, Effi
 - **Engineering degree** (Telecommunications, data science) and **research master's** (vision and intelligent machines), [ENIT](http://www.enit.rnu.tn/), Tunis. Master's research at Inria Sophia Antipolis on learned regularization for image denoising, published at EUSIPCO 2025.
 - **Teaching:** about 145 hours in computer vision, 3D graphics and animation, algorithms, Python and applied mathematics. See [Teaching](/teaching/).
 
-**Research interests:** geometric deep learning and graph neural networks · 3D human motion and virtual humans · perceptual evaluation and quality metrics · machine learning for mass spectrometry, proteomics and molecular data · AI for health.
-
-I am open to research positions in **computer vision, computer graphics, and bioinformatics / computational chemistry**, the areas where these approaches meet.
+**Research interests:** geometric deep learning and graph neural networks · 3D human motion and virtual humans · perceptual evaluation and quality metrics · machine learning for mass spectrometry and molecular data · AI for health.
