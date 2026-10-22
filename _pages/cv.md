@@ -9,18 +9,22 @@ redirect_from:
 
 {% include base_path %}
 
+*Research line: structure-aware deep learning on non-grid data (3D humans, molecules), evaluated against perceptual or experimental ground truth.*
+
 Experience
 ======
 * **Postdoctoral researcher**, since Dec. 2025, Lyon, France
-  - Deep learning for mass-spectrometry proteomics: graph neural networks for peptide fragmentation spectrum prediction (with PTMs), and CNN-based bacterial identification from MS1 pseudo-images.
+  - Extends the hierarchical, structure-aware learning of my PhD from 3D bodies to molecules: graph attention networks (atoms → amino acids) predicting peptide MS/MS spectra, including 21 post-translational modifications.
+  - Computer vision for health: CNN-based bacterial genus/species identification from mass-spectrometry pseudo-images of clinical isolates.
   - Collaborators: Prof. Stéphane Derrode, Dr. Zied Bouyahia, Léo Schneider
 
 * **R&D engineer (AI) and lecturer**, Caplogy Data, Sep. 2025 – Nov. 2025, Lyon, France
   - Applied computer-vision projects; designed and taught courses in several engineering schools.
 
 * **PhD researcher**, Inria Grenoble Rhône-Alpes, [Morpheo](https://www.inria.fr/en/morpheo) & [VirtUs](https://www.inria.fr/en/virtus) teams, Nov. 2021 – Jun. 2025
-  - Deep learning for 3D human motion generation (retargeting); created a dataset of animated 3D virtual humans.
-  - Designed and ran user studies (including ethics documentation); statistical analysis of subjective data; learned perceptual quality metrics.
+  - Structure-aware deep learning for 3D human motion: correspondence-free retargeting (PointNet skeleton regression, kinematic-tree RNN, learned skinning).
+  - Created the 4DHumanPercept dataset (240 animated 4D humans, 6 distortion types) and the 4DHumanQA learned perceptual metric.
+  - Designed and ran user studies (including ethics documentation); statistical analysis of subjective data.
   - Co-supervised an M2 student on image denoising.
 
 * **Research intern**, Inria Sophia Antipolis, [Morpheme](https://team.inria.fr/morpheme/) team, Mar. 2021 – Aug. 2021

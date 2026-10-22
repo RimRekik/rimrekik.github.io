@@ -8,22 +8,32 @@ redirect_from:
   - /about.html
 ---
 
-I am a **postdoctoral researcher in machine learning** based in Lyon, France. My work sits at the interface of **deep learning, computer vision and scientific data**: I design models that learn from structured data (3D meshes and motion sequences, molecular graphs, mass-spectrometry signals) and I care about evaluating them rigorously, including with human observers.
+I am a **postdoctoral researcher in machine learning** in Lyon, France. I design **structure-aware deep-learning models for non-grid data**, such as 3D bodies in motion, molecular graphs and mass-spectrometry signals, and I **evaluate them against what really matters for the application**: human perception in computer graphics, physical measurements in biochemistry.
 
-**Current work (postdoc).** I develop deep-learning methods for **mass-spectrometry-based proteomics**, with two main lines of work:
+My PhD at [Inria](https://www.inria.fr/en) developed this approach on **3D humans**. My postdoc applies it to **molecules and health**.
 
-- **Peptide fragmentation spectrum prediction with graph neural networks.** PepH-GAT is a hierarchical Graph Attention Network that represents each peptide (including post-translational modifications) as a two-level molecular graph, with atoms and amino acids as nodes, and predicts its HCD MS/MS spectrum. It is pre-trained on ProteomeTools/Prosit and fine-tuned on 21 PTM types (paper in preparation).
-- **Bacterial identification from mass-spectrometry data.** I train CNN classifiers (ResNet, EfficientNet) on MS1 pseudo-images to identify bacterial genus and species, including a two-stage genus-to-species cascade evaluated by stratified cross-validation.
+<p align="center"><img src="/images/research-thread.svg" alt="Research thread: the same structure-aware, hierarchical learning approach applied to 3D humans (PhD) and to peptides (postdoc)" width="100%"></p>
 
-**PhD (2021–2025).** I received my PhD in Computer Science from Université Grenoble Alpes / [Inria](https://www.inria.fr/en), in the [Morpheo](https://www.inria.fr/en/morpheo) (Grenoble) and [VirtUs](https://www.inria.fr/en/virtus) (Rennes) teams, supervised by Dr. [Stefanie Wuhrer](https://swuhrer.gitlabpages.inria.fr/website/) and Dr. [Anne-Hélène Olivier](https://perso.univ-rennes2.fr/anne.helene.olivier). My thesis, *Generation and evaluation of 3D human motion*, covered:
+### One research thread, two application domains
 
-- **Human motion retargeting**: a correspondence-free online method that transfers motion between 3D human bodies ([3DV 2024](https://arxiv.org/abs/2302.00556));
-- **Perceptual quality assessment of 3D human animation**: a dataset of animated virtual humans rated in a user study, and learned metrics that predict perceived quality ([IEEE TVCG 2025](https://arxiv.org/abs/2505.23301));
-- **A survey on realistic virtual human animation** ([Eurographics STAR / CGF 2024](https://hal.science/hal-04553021/document));
-- the **4DHumanOutfit** multi-subject 4D capture dataset ([CVIU 2023](https://kinovis.inria.fr/4dhumanoutfit/)).
+**1. Learning through structure, from fine elements to meaningful units.**
+In my PhD, I retargeted motion between 3D humans without any mesh correspondence. A PointNet regresses an articulated skeleton from raw points. A recurrent network moves that skeleton, constrained by the kinematic tree. A learned skinning field maps the motion back to every point ([3DV 2024](https://arxiv.org/abs/2302.00556)).
+In my postdoc, PepH-GAT applies the same idea to peptides. Atoms are aggregated into amino acids, which are then aggregated along the peptide chain, by a hierarchical graph attention network that predicts MS/MS fragmentation spectra, including for post-translationally modified peptides.
+In both cases, the model is told what the structure is (joints and bones; atoms, residues and bonds) instead of rediscovering it from a flat sequence. This lets it generalize to **unseen body shapes** and to **unseen chemical modifications**.
 
-**Before that.** I graduated in 2021 from the National School of Engineering of Tunis ([ENIT](http://www.enit.rnu.tn/)) with an engineering degree in Telecommunications (EUR-ACE label, data science major) and a research master's degree in vision and intelligent machines. My master's thesis at Inria Sophia Antipolis used deep learning to estimate spatially varying hyperparameters for image denoising and deblurring, which later led to a paper at EUSIPCO 2025.
+**2. Evaluating against the ground truth that matters.**
+For virtual humans, the reference is human perception. I built the **4DHumanPercept** dataset (240 distorted animations with mean opinion scores from a user study) and learned metrics that predict perceived quality ([IEEE TVCG 2025](https://arxiv.org/abs/2505.23301)), after a survey of how realism is defined and measured ([Eurographics STAR 2024](https://hal.science/hal-04553021/document)).
+For peptides and pathogens, the reference is the instrument: spectral-angle distance to measured spectra, splits that keep peptide backbones out of the test set, and stratified cross-validation across clinical isolates.
 
-I also teach: about 145 hours so far in computer vision, 3D computer graphics and animation, algorithms and data structures, Python and applied mathematics, from first-year undergraduate to engineering-school level. See [Teaching](/teaching/).
+**3. Computer vision beyond natural images.**
+Mass-spectrometry acquisitions can be read as images. I train CNNs (ResNet, EfficientNet) on MS1 **pseudo-images** to identify bacterial genus and species from clinical samples, with a genus-to-species cascade. Vision methods, applied to a diagnostic problem.
 
-**Research interests:** geometric deep learning and graph neural networks · 3D human motion generation and evaluation · perceptual studies and quality metrics · machine learning for mass spectrometry and proteomics.
+### Background
+- **Postdoc** (since 2025): deep learning for mass-spectrometry proteomics and clinical microbiology, Lyon.
+- **PhD in Computer Science** (2021–2025), Université Grenoble Alpes / Inria, [Morpheo](https://www.inria.fr/en/morpheo) and [VirtUs](https://www.inria.fr/en/virtus) teams, supervised by [Stefanie Wuhrer](https://swuhrer.gitlabpages.inria.fr/website/) and [Anne-Hélène Olivier](https://perso.univ-rennes2.fr/anne.helene.olivier): *Generation and evaluation of 3D human motion*.
+- **Engineering degree** (Telecommunications, data science) and **research master's** (vision and intelligent machines), [ENIT](http://www.enit.rnu.tn/), Tunis. Master's research at Inria Sophia Antipolis on learned regularization for image denoising, published at EUSIPCO 2025.
+- **Teaching:** about 145 hours in computer vision, 3D graphics and animation, algorithms, Python and applied mathematics. See [Teaching](/teaching/).
+
+**Research interests:** geometric deep learning and graph neural networks · 3D human motion and virtual humans · perceptual evaluation and quality metrics · machine learning for mass spectrometry, proteomics and molecular data · AI for health.
+
+I am open to research positions in **computer vision, computer graphics, and bioinformatics / computational chemistry**, the areas where these approaches meet.

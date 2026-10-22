@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 360" font-family="Helvetica, Arial, sans-serif">
+  <rect width="900" height="360" fill="#ffffff"/>
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#555"/>
+    </marker>
+  </defs>
+
+  <!-- column headers -->
+  <g font-size="13" fill="#666" text-anchor="middle" font-weight="bold">
+    <text x="205" y="28">FINE ELEMENTS</text>
+    <text x="405" y="28">STRUCTURE (PRIOR)</text>
+    <text x="605" y="28">PREDICTION</text>
+    <text x="795" y="28">VALIDATED AGAINST</text>
+  </g>
+
+  <!-- row labels -->
+  <g font-size="14" font-weight="bold" fill="#2a4d69">
+    <text x="20" y="98">PhD</text>
+    <text x="20" y="116" font-size="12" font-weight="normal" fill="#555">3D humans</text>
+  </g>
+  <g font-size="14" font-weight="bold" fill="#8a3b12">
+    <text x="20" y="248">Postdoc</text>
+    <text x="20" y="266" font-size="12" font-weight="normal" fill="#555">molecules, health</text>
+  </g>
+
+  <!-- PhD row -->
+  <g font-size="13" text-anchor="middle" fill="#1d1d1d">
+    <rect x="125" y="70" width="160" height="62" rx="8" fill="#e6eef5" stroke="#2a4d69"/>
+    <text x="205" y="97">Mesh vertices /</text><text x="205" y="115">point clouds</text>
+    <rect x="325" y="70" width="160" height="62" rx="8" fill="#e6eef5" stroke="#2a4d69"/>
+    <text x="405" y="97">Kinematic tree</text><text x="405" y="115">(joints, skinning)</text>
+    <rect x="525" y="70" width="160" height="62" rx="8" fill="#e6eef5" stroke="#2a4d69"/>
+    <text x="605" y="97">Retargeted motion /</text><text x="605" y="115">quality score</text>
+    <rect x="725" y="70" width="150" height="62" rx="8" fill="#ffffff" stroke="#2a4d69" stroke-dasharray="5 3"/>
+    <text x="800" y="97">Human perception</text><text x="800" y="115">(user studies, MOS)</text>
+  </g>
+  <g stroke="#555" stroke-width="1.6" marker-end="url(#a)">
+    <line x1="287" y1="101" x2="321" y2="101"/>
+    <line x1="487" y1="101" x2="521" y2="101"/>
+    <line x1="687" y1="101" x2="721" y2="101"/>
+  </g>
+
+  <!-- shared principle band -->
+  <rect x="125" y="152" width="750" height="46" rx="8" fill="#f4f1e8" stroke="#b9a978"/>
+  <text x="500" y="172" font-size="14" font-weight="bold" text-anchor="middle" fill="#3d3a2e">Same principle: structure-aware, hierarchical deep learning on non-grid data</text>
+  <text x="500" y="190" font-size="12.5" text-anchor="middle" fill="#3d3a2e">fine elements are aggregated through a known structure · evaluation grounded in what matters for the application</text>
+
+  <!-- Postdoc row -->
+  <g font-size="13" text-anchor="middle" fill="#1d1d1d">
+    <rect x="125" y="220" width="160" height="62" rx="8" fill="#fbeee6" stroke="#8a3b12"/>
+    <text x="205" y="247">Atoms and bonds</text><text x="205" y="265">(RDKit graph)</text>
+    <rect x="325" y="220" width="160" height="62" rx="8" fill="#fbeee6" stroke="#8a3b12"/>
+    <text x="405" y="247">Amino-acid chain</text><text x="405" y="265">(residues, PTMs)</text>
+    <rect x="525" y="220" width="160" height="62" rx="8" fill="#fbeee6" stroke="#8a3b12"/>
+    <text x="605" y="247">MS/MS spectrum</text><text x="605" y="265">(incl. modified peptides)</text>
+    <rect x="725" y="220" width="150" height="62" rx="8" fill="#ffffff" stroke="#8a3b12" stroke-dasharray="5 3"/>
+    <text x="800" y="247">Physical measurement</text><text x="800" y="265">(mass spectrometry)</text>
+  </g>
+  <g stroke="#555" stroke-width="1.6" marker-end="url(#a)">
+    <line x1="287" y1="251" x2="321" y2="251"/>
+    <line x1="487" y1="251" x2="521" y2="251"/>
+    <line x1="687" y1="251" x2="721" y2="251"/>
+  </g>
+
+  <text x="500" y="325" font-size="12.5" text-anchor="middle" fill="#666">Tools carried over: PointNet / GNN encoders · hierarchical pooling · transfer learning and fine-tuning · dataset design · rigorous metrics</text>
+</svg>
