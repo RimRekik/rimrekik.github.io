@@ -10,7 +10,7 @@ locale                   : "fr-FR"
 title                    : "Rim REKIK"
 title_separator          : "-"
 name                     : &name "Rim REKIK"
-description              : &description "Structure-aware deep learning, from 3D humans to molecules: computer vision, graphics and AI for health"
+description              : &description "Deep learning for complex data across biomedical, computer vision and computer graphics applications, with quantitative, qualitative and perceptual evaluation"
 url                      : https://RimRekik.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "RimRekik/RimRekik.github.io"
@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Rim Rekik"
   avatar           : "profile.png"
-  bio              : "Postdoctoral researcher · Structure-aware deep learning, from 3D humans to molecules"
+  bio              : "Postdoctoral researcher · Deep learning for complex data: biomedical, vision, graphics"
   location         : "Lyon, France"
   employer         :
   pubmed           : 

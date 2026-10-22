@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-*Research line: structure-aware deep learning on non-grid data (3D humans, molecules), evaluated against perceptual or experimental ground truth.*
+*Deep learning to model and analyse complex data (molecular graphs, mass-spectrometry signals, 3D shapes and motion, images) across biomedical, computer vision and computer graphics applications, with quantitative, qualitative and perceptual evaluation.*
 
 Experience
 ======
@@ -21,7 +21,7 @@ Experience
   - Applied computer-vision projects; designed and taught courses in several engineering schools.
 
 * **PhD researcher**, Inria Grenoble Rhône-Alpes, [Morpheo](https://www.inria.fr/en/morpheo) & [VirtUs](https://www.inria.fr/en/virtus) teams, Nov. 2021 – Jun. 2025
-  - Structure-aware deep learning for 3D human motion: correspondence-free retargeting (PointNet skeleton regression, kinematic-tree RNN, learned skinning).
+  - Deep learning for 3D human motion: correspondence-free retargeting (PointNet skeleton regression, kinematic-tree RNN, learned skinning).
   - Created the 4DHumanPercept dataset (240 animated 4D humans, 6 distortion types) and the 4DHumanQA learned perceptual metric.
   - Designed and ran user studies (including ethics documentation); statistical analysis of subjective data.
   - Co-supervised an M2 student on image denoising.
