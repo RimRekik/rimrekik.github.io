@@ -2,7 +2,7 @@
 title: "Correspondence-free online human motion retargeting"
 collection: publications
 date: 2024-03-18
-venue: 'International Conference on 3D Vision (3DV)'
+venue: 'International Conference on 3D Vision (3DV), the main international conference dedicated to 3D vision'
 paperurl: 'https://arxiv.org/abs/2302.00556'
 excerpt: "<img src='/images/retargeting-fig1.jpg' width='420'><br/>Animating any target body (scan, clothed capture, CAD character) with a source motion, without spatial or temporal correspondences, online."
 citation: '<b>R. Rekik*</b>, M. Marsot*, A.-H. Olivier, J.-S. Franco, S. Wuhrer. &quot;Correspondence-free online human motion retargeting.&quot; <i>International Conference on 3D Vision (3DV)</i>, 2024. (*joint first authors)'

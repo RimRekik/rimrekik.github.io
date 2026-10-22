@@ -2,7 +2,7 @@
 title: "4DHumanOutfit: a multi-subject 4D dataset of human motion sequences in varying outfits exhibiting large displacements"
 collection: publications
 date: 2023-09-11
-venue: 'Computer Vision and Image Understanding (CVIU)'
+venue: 'Computer Vision and Image Understanding (CVIU) · Q1 · Impact factor 3.6'
 paperurl: 'https://doi.org/10.1016/j.cviu.2023.103836'
 excerpt: "<img src='/images/4dhumanoutfit-teaser.jpg' width='520'><br/>A dense 4D capture dataset organized along three axes: identity, outfit and motion."
 citation: 'M. Armando, L. Boissieux, E. Boyer, J.-S. Franco, M. Humenberger, C. Legras, V. Leroy, M. Marsot, J. Pansiot, S. Pujades, <b>R. Rekik</b>, G. Rogez, A. Swamy, S. Wuhrer. &quot;4DHumanOutfit: a multi-subject 4D dataset of human motion sequences in varying outfits exhibiting large displacements.&quot; <i>Computer Vision and Image Understanding</i> 237, 103836, 2023.'

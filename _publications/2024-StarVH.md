@@ -2,7 +2,7 @@
 title: "A survey on realistic virtual human animations: Definitions, features and evaluations"
 collection: publications
 date: 2024-04-22
-venue: 'Computer Graphics Forum (Eurographics 2024 State-of-the-Art Report)'
+venue: 'Computer Graphics Forum (Eurographics 2024 State-of-the-Art Report) · Q1 · Impact factor 2.6'
 paperurl: 'https://doi.org/10.1111/cgf.15064'
 excerpt: "<img src='/images/survey-teaser.jpg' width='520'><br/>What makes an animated virtual human look realistic, and how should realism be measured? Eurographics 2024 State-of-the-Art Report."
 citation: '<b>R. Rekik</b>, S. Wuhrer, L. Hoyet, K. Zibrek, A.-H. Olivier. &quot;A survey on realistic virtual human animations: Definitions, features and evaluations.&quot; <i>Computer Graphics Forum</i> 43(2), 2024.'

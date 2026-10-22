@@ -2,7 +2,7 @@
 title: "Quality assessment of 3D human animation: Subjective and objective evaluation"
 collection: publications
 date: 2025-05-29
-venue: 'IEEE Transactions on Visualization and Computer Graphics (TVCG)'
+venue: 'IEEE Transactions on Visualization and Computer Graphics (TVCG) · Q1 · Impact factor 6.8'
 paperurl: 'https://doi.org/10.1109/TVCG.2025.3631385'
 excerpt: "<img src='/images/4dhumanqa-teaser.jpg' width='520'><br/>A perceptual dataset of animated 4D humans and a learned quality metric that reaches 90% correlation with human judgements."
 citation: '<b>R. Rekik</b>, S. Wuhrer, L. Hoyet, K. Zibrek, A.-H. Olivier. &quot;Quality assessment of 3D human animation: Subjective and objective evaluation.&quot; <i>IEEE Transactions on Visualization and Computer Graphics</i>, 2025.'
