@@ -1,13 +1,9 @@
 ---
-title: "A Survey on Realistic Virtual Human Animations: Definitions, Features and Evaluations"
+title: "A survey on realistic virtual human animations: Definitions, features and evaluations"
 collection: publications
-#permalink: /publication/2009-10-01-paper-title-number-1
-#excerpt: 'This paper is about image denoising.'
 date: 2024-04-22
-venue: 'Computer Graphics Forum (Eurographics STAR 2024)'
-others: <mark>To be presented at EUROGRAPHICS 2024 (90 min presentation)</mark>
+venue: 'Computer Graphics Forum (Eurographics 2024 State-of-the-Art Report)'
 paperurl: 'https://hal.science/hal-04553021/document'
-
+citation: '<b>R. Rekik</b>, S. Wuhrer, L. Hoyet, K. Zibrek, A.-H. Olivier. &quot;A survey on realistic virtual human animations: Definitions, features and evaluations.&quot; <i>Computer Graphics Forum</i>, 2024.'
 ---
-
-
+Eurographics 2024 State-of-the-Art Report (presented as a 90-minute session).

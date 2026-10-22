@@ -1,14 +1,10 @@
 ---
-title: "[4DHumanOutfit: a multi-subject 4D dataset of human motion sequences in varying outfits exhibiting large displacements](https://kinovis.inria.fr/4dhumanoutfit/)"
-#collection: publications
-#permalink:[ /publication/2009-10-01-paper-title-number-1](https://kinovis.inria.fr/4dhumanoutfit/)
-#excerpt: 'This paper is about 4DHumanOutfit.'
+title: "4DHumanOutfit: a multi-subject 4D dataset of human motion sequences in varying outfits exhibiting large displacements"
+collection: publications
 date: 2023-09-11
-venue: 'Computer Vision and Image Understanding Journal'
+venue: 'Computer Vision and Image Understanding (CVIU)'
 paperurl: 'https://www.sciencedirect.com/science/article/pii/S1077314223002163'
-#citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
+link: 'https://kinovis.inria.fr/4dhumanoutfit/'
+citation: 'M. Armando, L. Boissieux, E. Boyer, J.-S. Franco, M. Humenberger, C. Legras, V. Leroy, M. Marsot, J. Pansiot, S. Pujades, <b>R. Rekik</b>, G. Rogez, A. Swamy, S. Wuhrer. &quot;4DHumanOutfit.&quot; <i>CVIU</i>, 2023.'
 ---
-
-
-
-
+A multi-subject 4D capture dataset of people in varying outfits.
