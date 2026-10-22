@@ -45,13 +45,15 @@ Education
 
 Skills
 ======
-Detailed list on the [Technical skills](/skills/) page.
+Full overview on the [Technical skills](/skills/) page.
 
-* **Languages:** Python (expert), C++, C, Java, SQL, MATLAB
-* **Deep learning:** PyTorch, PyTorch Geometric, TensorFlow/Keras; CNNs, graph neural networks (GAT/GATv2), Transformers, autoencoders, generative models; transfer learning, hyperparameter search, cross-validation
-* **3D and vision:** OpenCV, Trimesh, Polyscope, SMPL body models, Blender, mesh processing, motion capture data
-* **Scientific data:** NumPy, pandas, scikit-learn, RDKit, HDF5, statistical analysis, PsychoPy (user studies)
-* **Engineering:** large-scale GPU training on remote compute clusters (SLURM, NVIDIA A100: job orchestration, parallel hyperparameter searches), Weights & Biases, Git, Linux, reproducible pipelines
+* **Research expertise:** **Deep Learning, Geometric Deep Learning, Graph Neural Networks, 3D Computer Vision**, Human Motion Modeling, Computer Animation, Perceptual Evaluation, Machine Learning for Health, Computational Proteomics
+* **Machine learning:** **Representation Learning, Transfer Learning & Fine-tuning**, Supervised Learning, Point Cloud Learning, CNNs, Sequence Models, Generative Models, Hyperparameter Optimization
+* **Computer vision & graphics:** **3D Shape Analysis, Motion Retargeting**, 4D Human Capture, Character Animation, Parametric Body Models (SMPL), Image Classification, Image Denoising, Inverse Problems
+* **Bioinformatics & cheminformatics:** **Mass Spectrometry (MS/MS), Molecular Graphs**, Proteomics, Post-translational Modifications, Clinical Microbiology, RDKit
+* **Research methods:** **Experimental Design, User Studies**, Perceptual Experiments, Statistical Analysis, Benchmarking & Ablation Studies, Cross-validation, Reproducible Research, Ethics Procedures
+* **Programming & libraries:** **Python, PyTorch, PyTorch Geometric**, TensorFlow/Keras, scikit-learn, NumPy, pandas, OpenCV, Trimesh, Blender, PsychoPy, MATLAB, C/C++, Java, SQL
+* **HPC & MLOps:** **HPC (SLURM), GPU Training (NVIDIA A100)**, Distributed Hyperparameter Search, Experiment Tracking, Data Pipelines, Git, Linux
 
 Publications
 ======
