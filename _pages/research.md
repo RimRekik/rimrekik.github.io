@@ -20,9 +20,8 @@ I develop **deep-learning methods to model and analyse complex data** (molecular
 *Postdoc, [Imagine team](https://liris.cnrs.fr/equipe/imagine), LIRIS, École Centrale de Lyon, since 2025*
 
 ### Graph neural networks for peptide mass spectrometry (ongoing)
-Predicting how peptides behave in a mass spectrometer is central to protein identification in proteomics, and it is especially hard for chemically modified peptides. I develop **hierarchical graph neural networks** that represent peptides at the molecular level, from atoms to amino acids, so that the model can handle modifications it has rarely seen. Models are evaluated against experimental spectra. A paper is in preparation.
-
-<img src="/images/peptide-graph-abstract.png" alt="From peptide sequence to molecular structure, hierarchical atom–residue graph and predicted spectrum" width="100%">
+Predicting how peptides behave in a mass spectrometer is central to protein identification in proteomics, and it is especially hard for chemically modified peptides. I develop **hierarchical graph neural networks** that represent peptides at the molecular level, from atoms to amino acids, so that the model can handle modifications it has rarely seen. Models are evaluated against experimental spectra.
+**[→ Paper page (in preparation)](/publications/2026-PepH-GAT/)**
 
 ### Bacterial identification from mass-spectrometry data (ongoing)
 Mass-spectrometry acquisitions of clinical samples can be represented as images. I apply **computer-vision models** to them to identify bacteria, and evaluate them with cross-validation across clinical isolates.
